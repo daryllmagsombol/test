@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.9/peer.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.iconarchive.com/download/i86037/graphicloads/100-flat-2/chat-2.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title>Simple Chat App</title>
+    
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/chat-2-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Simple Chat App
+  </a>
+</nav>
+</head>
+
+<body>
+	<div class="container">
+ 	<h1 class="display-4">PeerJS Chat</h1>
+ 	</div>
+ 	
+ 	<div class="container">
+ 		<p class="lead" id="ownID">Your Peer ID: </p>
+ 		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">Your Friend ID: </span>
+				<input id="friendID" type="text"></input>
+			<button class="btn" onClick="connectPeer();">Connect</button>
+  			</div>		
+ 		</div>
+ 		<p class="font-weight-light">You need to exchange IDs. Refresh if something happens.</p>
+ 		<p class="lead" id="statusCon">Status: Not Connected</p>
+	</div>
+ 	
+ 	 <div class="container">
+ 	 	<h3>Messages: </h3>
+ 	 	<i><p class="lead" id="chatRoll">No history yet</p></i>
+ 	 	<div class="form-group">
+			<textarea class="form-control" id="messBox" rows="6" placeholder="Write your message"></textarea>
+			<button class="btn btn-primary" onClick="sendMessage();">Send</button>
+		</div>
+ 	 </div>
+ 	  
+ <footer>
+	 <div class="footer-copyright text-center py-3">© 2018 Copyright:
+		<a href="https://mdbootstrap.com/bootstrap-tutorial/"> Daryll Joshua Magsombol</a>
+	  </div>
+</footer>
+</body>
+<script type="text/javascript" src ="../js/functions.js"> </script>
+
+</html>
