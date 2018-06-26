@@ -2,13 +2,13 @@
 
 Usage:
 
-$> npm install
-$> node index.js
+$> npm install <br>
+$> node index.js <br>
 
 Use only Chrome Browser for now.
 
 Sources of Research:
-https://www.w3schools.com/nodejs/
-https://peerjs.com/docs/
-https://github.com/peers/peerjs-server
-https://github.com/chriskwan/peerjs-demo 
+https://www.w3schools.com/nodejs/ <br>
+https://peerjs.com/docs/ <br>
+https://github.com/peers/peerjs-server <br>
+https://github.com/chriskwan/peerjs-demo <br>
