@@ -1,14 +1,16 @@
-<b>Simple Chat App using Vanilla JavaScript, NodeJS, and PeerJS with Bootstrap</b>
+# Simple Chat App using Vanilla JavaScript, NodeJS, and PeerJS with Bootstrap
 
-Usage:
+*Usage: *
 
+```
 $> npm install <br>
 $> node index.js <br>
+```
 
-Use only Chrome Browser for now.
+## Use **only** Chrome Browser for now.
 
-Sources of Research: <br>
-https://www.w3schools.com/nodejs/ <br>
-https://peerjs.com/docs/ <br>
-https://github.com/peers/peerjs-server <br>
-https://github.com/chriskwan/peerjs-demo <br>
+##### Sources of Research: 
+- https://www.w3schools.com/nodejs/ 
+- https://peerjs.com/docs/ 
+- https://github.com/peers/peerjs-server 
+- https://github.com/chriskwan/peerjs-demo 
