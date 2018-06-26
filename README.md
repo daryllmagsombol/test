@@ -1,4 +1,4 @@
-Simple Chat App using Vanilla JavaScript, NodeJS, and PeerJS with Bootstrap
+<b>Simple Chat App using Vanilla JavaScript, NodeJS, and PeerJS with Bootstrap</b>
 
 Usage:
 
